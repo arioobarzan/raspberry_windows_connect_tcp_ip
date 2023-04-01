@@ -9,7 +9,7 @@ public class AsynchronousSocketClient
 {
     public static void Main(String[] args)
     {
-        Connect("192.168.1.77","Hello World");
+        Connect("192.168.1.77","Hello World");//server ip and message
     }
     static void Connect(String server, String message)
     {
